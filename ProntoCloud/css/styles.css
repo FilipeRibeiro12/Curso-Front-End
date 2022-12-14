@@ -15,8 +15,10 @@ body{
     display: block;
     float:left;
     padding: 20px;
-    width: 100%;
+    max-width: 100%;
     margin: 0 auto;
+    max-width: 1198px;
+
 }
 
 header{
@@ -58,6 +60,16 @@ p{
     margin-bottom: 10px;
     line-height: 1.4;
     color:#454545;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+#tenho-interesse{
+    width: 100%;
+
 }
 
 ol{
@@ -123,4 +135,21 @@ footer p{
 footer small{
     display: block;
     font-size: 80%;
+}
+
+.cognito{
+    height: 400px !important;
+    overflow: hidden !important;
+}
+
+@media (max-width: 425px){
+    section nav,
+    section article {
+        width:100%
+    }
+}
+
+.container{
+    padding-left: 1%;
+    padding-right: 1%;
 }
